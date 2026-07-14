@@ -14,9 +14,6 @@ const multiply = (a, b) => {
 };
 
 // 나눗셈
-const divide = (a, b) => {
-    if (b === 0) {
-        throw new Error();
-    }
+const divide_free = (a, b) => {
     return a / b;
 };
